@@ -17,6 +17,8 @@ export const HomeImage = styled.div`
   }
 `;
 
-export const CardContainer = styled(Flex)``;
+export const CardContainer = styled(Flex)`
+`;
 
-export const Card = styled();
+export const Card = styled()`
+`;
