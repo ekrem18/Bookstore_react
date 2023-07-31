@@ -17,8 +17,8 @@ export const Logo = styled(NavLink)`
     color: ${({theme})=>theme.colors.logoColor };
     transition: color 0.8s;
     :hover {
-        color: ${({theme})=>theme.colors.linkHoverColor };
-    }
+        color: ${({theme})=>theme.colors.linkHoverColor
+    }}
 `;
 
 
