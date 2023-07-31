@@ -11,7 +11,7 @@ const AuthContextProvider = ({ children }) => {
     sessionStorage.setItem("user", user);
   }, [user]);
 
-  console.log(user);
+  // console.log(user);
 
   return (
     <AuthContext.Provider value={{ user, setUser }}>
