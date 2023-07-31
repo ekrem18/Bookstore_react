@@ -9,8 +9,8 @@ const Navbar = () => {
       <HamburgerIcon>{menuIcon}</HamburgerIcon>
       <Menu>
         <MenuLink>Home</MenuLink>
-        <MenuLink>Home</MenuLink>
-        <MenuLink>Home</MenuLink>
+        <MenuLink to="/about">About</MenuLink>
+        <MenuLink to="/detail/1">Detail</MenuLink>
         <MenuLink>Home</MenuLink>
         <MenuLink>Home</MenuLink>
       </Menu>

@@ -4,7 +4,9 @@ import { Navigate, Outlet } from "react-router-dom";
 
 const PrivateRouter = () => {
   const { user } = useAuthContext();
-  // const { user } = useContext(AuthContext); // böyle uzun yazıp iki import yapmak yerine custom hook yazarak tek importla contexti kullanabiliyoruz.
+
+  console.log(Boolean(user));
+  
   return user ? <Outlet /> : <Navigate to="/login" />;
 };
 
