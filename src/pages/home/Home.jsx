@@ -1,8 +1,11 @@
 import React from 'react'
+import { Header } from '../login/Login.style'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <HomeContainer>
+      <Header/>
+    </HomeContainer>
   )
 }
 
