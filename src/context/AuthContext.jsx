@@ -5,6 +5,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 const AuthContext = createContext();
 
 const AuthContextProvider = ({ children }) => {
+ 
   const [user, setUser] = useState(JSON.parse(sessionStorage.getItem("user") )|| false);
 
   useEffect(() => {
