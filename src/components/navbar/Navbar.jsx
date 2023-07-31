@@ -4,7 +4,7 @@ import { HamburgerIcon, Logo, Menu, MenuLink, Nav } from './Navbar.style'
 
 const Navbar = () => {
   return (
-    <Nav >
+    <Nav  justify="space-between">
       <Logo>Clarusway Library</Logo>
       <HamburgerIcon>{menuIcon}</HamburgerIcon>
       <Menu>

@@ -4,7 +4,8 @@ import Flex from "../../styles/Flex";
 import { NavLink } from "react-router-dom";
 
 export const Nav =styled(Flex)`
-
+background-color: ${({theme})=>theme.colors.navbarBgColor};
+padding: 1rem 2rem;
 `;
 
 
