@@ -15,7 +15,7 @@ export const HeaderTitle = styled.h1`
 `;
 export const HeaderForm = styled.form`
   display: flex;
-  width: 100%;
+  width: 95%;
   flex-direction: column;
   padding: 1rem;
   flex-wrap: wrap;
@@ -27,7 +27,7 @@ export const HeaderForm = styled.form`
   margin: 20px;
   background-color: ${({ theme }) => theme.colors.headerFormColor};
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
-    /* background-color: black; */
+    
     flex-direction: column;
     width: 90%;
     padding: 1rem;
