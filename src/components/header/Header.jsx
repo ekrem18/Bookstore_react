@@ -6,7 +6,7 @@ const Header = () => {
     <HeaderContainer>
       <HeaderTitle>Books or Magazines</HeaderTitle>
       <HeaderForm>
-        <SearchInput/>
+        <SearchInput type="search" placeholder="Search..." />
         <SelectBox>
           <option>All</option>
         </SelectBox>
