@@ -17,7 +17,7 @@ const Header = () => {
     console.log(e.target);
     console.log(e.target.name);
     console.log({ [e.target.name]: e.target.value });
-    setSearchInfo({ ...searchInfo, [e.target.name]: e.target.value }); // inputun name attr ile statede ki key isimleri aynı olmak zorunda.
+    setSearchInfo({ ...searchInfo, [e.target.name]: e.target.value }); 
   };
 
   const handleSubmit = (e) => {
