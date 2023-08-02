@@ -15,9 +15,7 @@ export const HeaderTitle = styled.h1`
 `;
 export const HeaderForm = styled.form`
   display: flex;
-  width: 95%;
-  flex-direction: column;
-  padding: 1rem;
+  width: 45%;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 16px;
@@ -27,7 +25,6 @@ export const HeaderForm = styled.form`
   margin: 20px;
   background-color: ${({ theme }) => theme.colors.headerFormColor};
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
-    
     flex-direction: column;
     width: 90%;
     padding: 1rem;
@@ -57,7 +54,7 @@ export const SelectBox = styled.select`
   margin-top: 2rem;
   padding: 5px;
   height: 3rem;
-  width: 70%;
+  width: 40%;
   border: none;
   outline: none;
   font-size: 2rem;
@@ -82,7 +79,7 @@ export const HeaderButton = styled.button`
   font-size: 2rem;
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  &:hover {
+  :hover {
     background-color: ${({ theme }) => theme.colors.navbarBgColor};
   }
 `;
