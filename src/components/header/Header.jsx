@@ -13,14 +13,14 @@ const Header = () => {
   const printType = ["All", "Books", "Magazines"];
   const { searchInfo, setSearchInfo, getData } = useBooksContext();
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     console.log(e.target);
     console.log(e.target.name);
     console.log({ [e.target.name]: e.target.value });
     setSearchInfo({ ...searchInfo, [e.target.name]: e.target.value }); // inputun name attr ile statede ki key isimleri aynı olmak zorunda.
   };
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     getData();
   };
@@ -28,7 +28,7 @@ const Header = () => {
   console.log(searchInfo);
   return (
     <HeaderContainer>
-      <HeaderTitle>BOOKS OR MAGAZINES</HeaderTitle>
+      <HeaderTitle>Books & Magazines</HeaderTitle>
       <HeaderForm onSubmit={handleSubmit}>
         <SearchInput
           type="search"
@@ -36,14 +36,14 @@ const Header = () => {
           name="query"
           value={searchInfo.query}
           onChange={handleChange}
-          // onChange={()=> setSearchInfo({...searchInfo, query:e.target.value})}
           required
         />
         <SelectBox
           value={searchInfo.selectType}
           name="selectType"
-          onChange={handleChange}>
-          {printType.map(item => (
+          onChange={handleChange}
+        >
+          {printType.map((item) => (
             <option key={item} value={item}>
               {item}
             </option>
