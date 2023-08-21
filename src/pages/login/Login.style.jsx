@@ -3,7 +3,7 @@ import Flex from "../../styles/Flex"
 
 export const LoginContainer = styled(Flex)`
   min-height: 90vh;
-  background-image: url("https://picsum.photos/1600/900");
+  /* background-image: url("https://picsum.photos/1600/900"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -44,7 +44,7 @@ export const Header = styled.h1`
   -webkit-text-fill-color: transparent;
   color: transparent;
   transform: translate(0.1em, 0.1em);
-  background-image: linear-gradient(305deg, darkblue, yellow, darkblue);
+  background-image: linear-gradient(305deg, darkblue, #b96301, darkblue);
   background-clip: text;
   -webkit-background-clip: text;
 `;

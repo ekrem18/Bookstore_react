@@ -16,7 +16,7 @@ const Card = ({ item }) => {
       />
 
       <CardButton
-        onClick={() => navigate(`/detail/${item.id}`, { state: item })}>
+        onClick={() => navigate(`/detail/${item.id}`, { state: item })} >
         View More
       </CardButton>
     </CardContainer>

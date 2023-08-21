@@ -5,11 +5,12 @@ export const lightTheme = {
     navbarBgColor: "#D9BEA7",
     mainColor: "#62C3D9",
     logoColor: "#26160C",
-    linkColor: "#A64005",
+    linkColor: "#26160C",
     detailBgColor: "#F2E2CE",
     detailColor: "rgb(5,5,5)",
     linkHoverColor: "rgb(5,5,5)",
     headerFormColor: "#402718",
+    buttonColor:"#F2E2CE"
   },
   screens: {
     lg: "992px",

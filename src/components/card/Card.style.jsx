@@ -37,6 +37,6 @@ export const CardButton = styled.button`
   &:hover {
     opacity: 0.6;
   }
-  background-color: ${({ theme }) => theme.colors.mainColor};
+  background-color: ${({ theme }) => theme.colors.buttonColor};
   color: ${({ theme }) => theme.colors.linkHoverColor};
 `;

@@ -68,7 +68,7 @@ export const SelectBox = styled.select`
 `;
 
 export const HeaderButton = styled.button`
-  background-color: #e1f1dd;
+  background-color: #F2E2CE;
   padding: 5px;
   outline: none;
   height: 3rem;

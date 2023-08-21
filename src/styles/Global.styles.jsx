@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
     /* text-transform: uppercase; */
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Akaya Telivigala', cursive;
 }
 
 body{
@@ -21,6 +21,7 @@ body{
     /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
