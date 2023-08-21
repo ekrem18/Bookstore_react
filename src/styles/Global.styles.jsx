@@ -2,6 +2,9 @@
 
 import { createGlobalStyle } from "styled-components";
 
+
+
+
 export const GlobalStyles = createGlobalStyle`
 
 *{
@@ -14,7 +17,11 @@ export const GlobalStyles = createGlobalStyle`
 
 body{
     font-size: 1.5rem;
-    background-color: ${({theme})=> theme.colors.mainColor};
+    background-image: url(https://images.alphacoders.com/115/1159192.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 `;

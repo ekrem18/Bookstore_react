@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Card from "../../components/card/Card";
-import { CardContainer, HomeContainer, HomeImage } from "./Home.style";
-import homeImg from "../../assets/books.jpg";
+import { CardContainer, HomeContainer, } from "./Home.style";
+// import homeImg from "../../assets/books.jpg";
 import { useBooksContext } from "../../context/BooksContext";
 
 const Home = () => {
@@ -17,9 +17,11 @@ const Home = () => {
           ))}
         </CardContainer>
       ) : (
-        <HomeImage>
-          <img src={homeImg} alt="Home" />
-        </HomeImage>
+        <CardContainer wrap="wrap">
+          {myData.map(item => (
+            <Card key={item.id} item={item} />
+          ))}
+        </CardContainer>
       )}
     </HomeContainer>
   );
