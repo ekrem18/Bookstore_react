@@ -32,11 +32,12 @@ export const CardButton = styled.button`
   outline: none;
   border: none;
   margin: 0.5rem;
-  border-radius: 3px;
+  color: #26160C;
+  border-radius: 6px;
   cursor: pointer;
   &:hover {
     opacity: 0.6;
   }
   background-color: ${({ theme }) => theme.colors.buttonColor};
-  color: ${({ theme }) => theme.colors.linkHoverColor};
+  /* color: ${({ theme }) => theme.colors.linkHoverColor}; */
 `;

@@ -59,7 +59,7 @@ export const SelectBox = styled.select`
   outline: none;
   font-size: 2rem;
   border-top-right-radius: 1rem;
-  background-color: rgb(255, 255, 255, 0.8);
+  background-color: #F2E2CE;
   border-bottom-right-radius: 1rem;
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
     width: 100%;
@@ -79,7 +79,7 @@ export const HeaderButton = styled.button`
   font-size: 2rem;
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  :hover {
+  &:hover {
     background-color: ${({ theme }) => theme.colors.navbarBgColor};
   }
 `;

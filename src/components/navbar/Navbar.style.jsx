@@ -15,7 +15,7 @@ export const Logo = styled(NavLink)`
   font-size: 2rem;
   color: ${({ theme }) => theme.colors.logoColor};
   transition: color 0.8s;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.colors.linkHoverColor};
   }
 `;
@@ -43,7 +43,7 @@ export const MenuLink = styled(NavLink)`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.linkColor};
   transition: all 0.3s ease-in;
-  :hover {
+  &:hover{
     color: ${({ theme }) => theme.colors.linkHoverColor};
   }
   &.active {
