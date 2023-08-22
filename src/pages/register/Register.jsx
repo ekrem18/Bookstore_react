@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import image from "../../assets/construction.png";
+import RegisterDiv from "./Register.style";
 const Register = () => {
   return (
-    <div>Register</div>
-  )
-}
+    <RegisterDiv>
+      <img src={image} alt="" />
+    </RegisterDiv>
+  );
+};
 
-export default Register
+export default Register;
