@@ -44,7 +44,7 @@ const Detail = () => {
         </DetailImg>
         <Description>{state.volumeInfo.description}</Description>
         <InfoPart>
-          <p>{state.volumeInfo.authors.join(" - ")}</p>
+          <p>{state.volumeInfo.authors}</p>
           <p>
             {state.volumeInfo.publishedDate} / {state.volumeInfo?.publisher}
           </p>

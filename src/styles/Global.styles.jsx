@@ -19,9 +19,11 @@ body{
     font-size: 1.5rem;
     background-image: url(https://images.alphacoders.com/115/1159192.jpg);
     /* background-position: center; */
+    /* background-attachment: fixed; */
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
 
 

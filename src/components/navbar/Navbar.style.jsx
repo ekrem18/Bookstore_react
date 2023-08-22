@@ -5,11 +5,11 @@ import { NavLink } from "react-router-dom";
 
 export const Nav = styled(Flex)`
   background-color: ${({ theme }) => theme.colors.navbarBgColor};
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
 `;
 
 export const Logo = styled(NavLink)`
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   text-decoration: none;
   font-weight: 800;
   font-size: 2rem;
@@ -43,6 +43,7 @@ export const MenuLink = styled(NavLink)`
   text-decoration: none;
   color: ${({ theme }) => theme.colors.linkColor};
   transition: all 0.3s ease-in;
+  font-size: 2rem;
   &:hover{
     color: ${({ theme }) => theme.colors.linkHoverColor};
   }

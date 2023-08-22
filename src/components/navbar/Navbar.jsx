@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { menuIcon } from "../../helper/iconData";
 import { HamburgerIcon, Logo, Menu, MenuLink, Nav } from "./Navbar.style";
 import { useAuthContext } from "../../context/AuthContext";
+import logoImg from "../../assets/logoo.png"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -17,7 +18,9 @@ const Navbar = () => {
 
   return (
     <Nav justify="space-between" wrap="wrap">
-      <Logo to="/">Clarusway Library</Logo>
+      <Logo to="/">
+        <img src={logoImg} alt="" />
+      </Logo>
       <HamburgerIcon onClick={() => setToggle(!toggle)}>
         {menuIcon}
       </HamburgerIcon>
