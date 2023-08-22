@@ -8,7 +8,7 @@ export const HeaderContainer = styled(Flex)`
 export const HeaderTitle = styled.h1`
   margin-top: 1rem;
   font-size: 3rem;
-  color: ${({ theme }) => theme.colors.detailColor};
+  color: ${({ theme }) => theme.colors.buttonColor};
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
     font-size: 1.6rem;
   }

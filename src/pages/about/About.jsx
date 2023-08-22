@@ -14,13 +14,12 @@ const About = () => {
     <AboutContainer>
       <ProfileImg src={profile} alt="anthony" />
       <InfoContainer>
-        <h2>Hi, I'm Anthony</h2>
+        <h2>Hello, I'm a bookworm!</h2>
         <h3>
-          I'm currently learning different full-stack development languages.
+        The creator of this page, Ekrem, designed me using artificial intelligence. 
         </h3>
         <h4>
-          I already know JavaScript, ReactJS, Next.js, React Native, Django,
-          Node.js, MongoDB, SQL, Python, and AWS services.
+        I guess he found animals wearing glasses very funny, so he thought it suited me. Stay tuned to give him a chance and see what he has created.
         </h4>
         <h4>💬 You can ask me anything you want to know</h4>
         <IconContainer>
