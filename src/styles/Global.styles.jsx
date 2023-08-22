@@ -21,7 +21,7 @@ body{
     /* background-position: center; */
     /* background-attachment: fixed; */
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     
 }
