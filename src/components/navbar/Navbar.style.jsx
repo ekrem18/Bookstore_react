@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 export const Nav = styled(Flex)`
   background-color: ${({ theme }) => theme.colors.navbarBgColor};
   padding: 0rem 2rem;
+  /* position:fixed; */
 `;
 
 export const Logo = styled(NavLink)`
